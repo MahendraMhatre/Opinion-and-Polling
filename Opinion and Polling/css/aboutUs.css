@@ -1,0 +1,74 @@
+html, body  {
+    height: 100%;
+}
+section {
+    margin-top: 60px;
+}
+.logoCenter {
+    background-color: #2381C8;
+    position: fixed;
+    left: 0;
+    top: 0;
+	height: 60px;
+	border-bottom: 0;
+	width: 100%;
+}
+.logoCenter a img {
+    height: 52px;
+    margin-top: 6px;
+    position: fixed;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+}
+.polaroid img {
+    border: 10px solid white;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+       -moz-box-shadow: 3px 3px 3px #777;
+            box-shadow: 3px 3px 3px #777;
+}
+.polaroid p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 15px;
+    font:Verdana;
+    font-size: 18px;
+    color: darkgrey;
+}
+#Po, #Kh, #Ma, #Mm, #Vi {
+    display: inline-block;
+    text-align: center;
+    height: inherit;
+    padding-top: 15px;
+}
+
+#Po  {
+    width: 19%;
+}
+div img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid black;
+    
+}
+#Kh {
+    width: 20%;
+}
+#Mm {
+    width: 20%;
+}
+#Ma {
+    width: 20%;
+}
+#Vi {
+    width: 19%;
+}
+#Po, #Kh    {
+    margin-bottom: 15px;
+}
+#Vi, #Ma, #Mm   {
+    margin-top: 15px;
+}

@@ -1,0 +1,359 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#login_body {
+     margin: 0;
+    padding: 0;
+   
+}
+#blurr{
+    position: fixed;
+    z-index: -50;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6)
+}
+#logo {
+    height: 105.8px;
+    width: 222.7px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-top: -52.9px;
+    margin-left: -111.35px;
+    background-size: cover;
+    
+}
+#tagline{
+    position: absolute;
+    font-size: 2em;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    font-weight: bolder;
+    overflow-y: inherit;
+    
+}
+
+#different1{
+    color: #2b9ffa;
+    font-family: welcome;
+    
+}
+#people{
+    color: #24bbaa;
+    font-family: welcome;
+}
+#have{
+    color: #93c73f;
+    font-family: welcome;
+}
+#different2{
+    color: #f99e29;
+    font-family: welcome;
+}
+#opinions{
+    color: #ff3155;
+    font-family: welcome;
+}
+#different1:hover, #people:hover, #have:hover, #different2:hover, #opinions:hover {
+    text-decoration: underline;
+}
+#form{
+    float: none;
+}
+
+.login{
+    width: 360px;
+    height: 320px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -190px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2);
+    font-weight: bold;
+    float: none;
+    overflow: auto;
+    
+}
+#login_button {
+    line-height: 35px;
+}
+#forgot{
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    font-family: welcome;
+}
+#forgot:hover {
+    text-decoration: underline;
+}
+#or {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: welcome;
+}
+#continue{
+    font-style: normal;
+    font-family: welcome;
+}
+#continue:hover {
+    text-decoration: underline;
+}
+#already_user{
+    font-style: normal;
+    font-family: welcome;
+}
+#already_user:hover {
+    text-decoration: underline;
+}
+@font-face{
+    font-family: welcome;
+    src: url(../assets/High%20Thin%20LIGHT.ttf) 
+}
+.login h4, .signup h4{
+    color: white;
+    font-family: welcome;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.loginInput {
+    background-color: #888888;
+    color: white;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin: 5px 0;
+    opacity: 0.5;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: none;
+}
+#username {
+    background-image: url(../assets/user.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#password {
+    background-image: url(../assets/password.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    opacity: 1;
+    outline: none;
+}
+input[type=submit]:hover {
+    opacity: 1;
+    background-color: #888888;
+}
+
+.signup{
+    width: 360px;
+    height: 320px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -190px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2);
+    font-weight: bold;
+    display: none;
+}
+
+.signup input {
+    background-color: #888888;
+    color: white;
+    width: 99%;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px 0;
+    opacity: 0.5;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: none;
+}
+
+.signup input:focus {
+    opacity: 1;
+    outline: none;
+}
+.signup input[type=submit]:hover {
+    opacity: 1;
+    background-color: #888888;
+}
+.signup input[type=radio]{
+    width: 5%;
+ padding-left: 5%;
+    float: none;
+}
+#passDM {
+    display: none;
+    color: #F44336;
+    font-family: Roboto;
+    font-size: 20px;
+}
+div#quotesection{
+    font-family: welcome;
+    font-size: 20px;
+    font-weight: bold;
+    height: 10%;
+    width: 80%;
+    position: fixed;
+    top: 87%;
+    left: 10%;
+}
+#quote{
+    text-align: center;
+    font-style: italic;
+}
+#author{
+    text-align: right;
+}
+
+footer
+{
+	width: 100%;
+	position: absolute;
+	color: #eeeeee;
+    bottom: 0;
+    text-align: center;
+    
+}
+footer div{
+    margin-bottom: 5px;
+    font-size: .8em;
+}
+
+/*
+input[type=submit]{
+    width: 100%;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px 0;
+    color: #190f41;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 3px solid #190f41;
+    background-color: #f5f0ea;
+    opacity: .7;
+    margin-right: 7px;
+}
+*/
+
+
+
+
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  background: #322f30;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p > a:hover{
+	color: #d9d9d9;
+	text-decoration:  underline;
+}
+
+
+
+._12 {
+	font-size: 1.2em;
+
+}
+
+._14 {
+	font-size: 1.4em;
+
+}
+
+ul {
+	padding:0;
+	list-style: none;
+}
+
+.footer-social-icons {
+	width: 350px;
+	display:block;
+  margin: 0 auto;
+}
+
+.social-icon {
+	color: #fff;
+}
+
+ul.social-icons {	
+	margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+}
+
+.social-icons a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+.fa-facebook {
+	padding:10px 14px 7px 14px;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+}
+
+.fa-google-plus {
+	padding:10px 10px 7px 10px;
+  	transition: .5s;
+  	background-color: #322f30;
+}
+
+.fa-google-plus:hover {
+	background-color: #e25714;
+}
+
+@media screen and (max-width: 750px) {
+    #logo{height: 52.9px; width: 111.4px;margin-left: -56.7px; top: 60px;}
+    #tagline{font-size: 1.2em;width: 100%;top: 12%;left: 0;}
+    .login{top: 55%; width: 260px; margin-left:-140px; font-size: .7em; height: 260px;}
+    .signup {top: 55%;width: 260px; margin-left:-140px;font-size: .7em; height: 260px;}
+    h4{font-size: 20px;}
+    div#quotesection{font-size: .7em;width: 90%;top: 85%;left: 0;}
+    input{font-size: .8em;}
+}
